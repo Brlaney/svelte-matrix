@@ -5,7 +5,7 @@
 
 <div class='w-full min-h-screen bg-slate-800 text-slate-50 overflow-y-hidden'>
   <Header />
-  <div class='px-10 md:px-14 lg:px-32 py-14 '>
+  <div class='flex items-center justify-center px-10 md:px-14 lg:px-32 py-14 '>
     <slot></slot>
   </div>
 </div>
