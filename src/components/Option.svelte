@@ -1,7 +1,7 @@
 <script>
-    import truss from '../../static/truss.svg';
-    import beam from '../../static/beam.svg';
-    import frame from '../../static/frame.svg';
+    import truss from '../../static/systems/truss.svg';
+    import beam from '../../static/systems/beam.svg';
+    import frame from '../../static/systems/frame.svg';
 
   import Card from './Card.svelte'
   export let system
