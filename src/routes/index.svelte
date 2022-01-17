@@ -5,8 +5,8 @@
 
 <section>
   <div class='flex flex-row flex-wrap justify-between w-full h-full'>
-    {#each $StructuralSystems as ss (ss.id)}
-      <OptionCard system={ss} />
+    {#each $StructuralSystems as sys (sys.id)}
+      <OptionCard system={sys} />
     {/each}
   </div>
 </section>
