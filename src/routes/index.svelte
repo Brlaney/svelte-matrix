@@ -1,12 +1,12 @@
 <script>
     import {StructuralSystems} from '../systems';
-    import Option from '../components/Option.svelte'
+    import OptionCard from '../components/OptionCard.svelte'
 </script>
 
 <section>
-  <div class='flex-auto w-full'>
+  <div class='flex flex-row flex-wrap justify-between w-full h-full'>
     {#each $StructuralSystems as ss (ss.id)}
-      <Option system={ss} />
+      <OptionCard system={ss} />
     {/each}
   </div>
 </section>
