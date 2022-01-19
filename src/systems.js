@@ -6,23 +6,20 @@ export const StructuralSystems = readable([
     name: 'Truss',
     lower: 'truss',
     dof: 2,
-    disp: ['dx', 'dy'],
-    path: '../../../static/truss.svg'
+    disp: ['dx', 'dy']
   },
   {
     id: 2,
     name: 'Frame',
     lower: 'frame',
     dof: 3,
-    disp: ['dx', 'dy', 'dM'],
-    path: '../../../static/frame.svg'
+    disp: ['dx', 'dy', 'dM']
   },
   {
     id: 3,
     name: 'Beam',
     lower: 'beam',
     dof: 2,
-    disp: ['dy', 'dM'],
-    path: '../../../static/beam.svg'
+    disp: ['dy', 'dM']
   },
 ])
